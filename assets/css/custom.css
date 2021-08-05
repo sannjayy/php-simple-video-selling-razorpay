@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+	background: black;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.top_row{
+	background: #54595F;
+	/*background: #713137;*/
+}
+.top_row > div > h6{
+	color: #eae7e4;
+	margin-top: 6px;
+}
+
+form > div > label {
+	color: white;
+}
+.links{
+	color: white;
+}
+
+/*td{
+	color: wheat;
+}
+th{
+	color: wheat;
+}
+*/
+#custom_table_wrapper{
+	width: 100%;
+	background: white;
+	padding: 5px;
+}
+#custom_table2{
+	background: white;
+	padding: 5px;
+}
+.white{
+	color: white;
+}
+
+/*// X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {  
+
+}
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+
+}
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+
+}
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {  }
+
+/*// X-Large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) {  }
+
+/*// XX-Large devices (larger desktops)*/
+/*// No media query since the xxl breakpoint has no upper bound on its width*/
